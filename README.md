@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-histogram-
 
 Summary: Scale up histogramming with Dask.
 
-Development: https://github.com/douglasdavis/dask-histogram/
+Development: https://github.com/dask-contrib/dask-histogram/
 
 Documentation: https://dask-histogram.readthedocs.io/
 
