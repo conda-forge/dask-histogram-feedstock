@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -46,7 +46,7 @@ about:
     Dask histogram extends the boost-histogram library to provide
     compatibility with Dask collections.
   doc_url: https://dask-histogram.readthedocs.io/
-  dev_url: https://github.com/douglasdavis/dask-histogram/
+  dev_url: https://github.com/dask-contrib/dask-histogram/
 
 extra:
   recipe-maintainers:
