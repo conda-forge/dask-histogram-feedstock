@@ -1,5 +1,5 @@
 {% set name = "dask-histogram" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a7f58acfb598f3d981129f44479f24c59757d4608f2b452224936a68767f17c9
+  sha256: d852a59223b15736888c24b80e581e80749e4388f43436bdfbd85adf85be0f66
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -41,7 +41,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: "Scale up histogramming with Dask."
+  summary: Scale up histogramming with Dask.
   description: |
     Dask histogram extends the boost-histogram library to provide
     compatibility with Dask collections.
