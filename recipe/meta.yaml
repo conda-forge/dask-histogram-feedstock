@@ -1,5 +1,5 @@
 {% set name = "dask-histogram" %}
-{% set version = "0.2.3" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/dask_histogram/dask_histogram-{{ version }}.tar.gz
-  sha256: e4487949108c778b8dfc45a068a841e5a457353274e47948afd5e91cedd537c4
+  sha256: 7311d590bc8bb71dc5c014030985af2216a8e9d1d4c817fd61acc1a2b1b42b6e
 
 build:
   noarch: python
