@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/d/dask_histogram/dask_histogram-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/d/dask_histogram/dask-histogram-{{ version }}.tar.gz
   sha256: 6505c5f63c5d236f4b7e8b4c2962733a73b0f8132865a117b6f0ed0fbb4f00aa
 
 build:
