@@ -1,13 +1,13 @@
 {% set name = "dask-histogram" %}
-{% set version = "2022.6.0" %}
+{% set version = "2022.8.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/d/dask_histogram/dask-histogram-{{ version }}.tar.gz
-  sha256: 6505c5f63c5d236f4b7e8b4c2962733a73b0f8132865a117b6f0ed0fbb4f00aa
+  url: https://pypi.io/packages/source/d/dask_histogram/dask_histogram-{{ version }}.tar.gz
+  sha256: 861b04afb4eb28eb03bb35511fedaf62326026078004ae0d14cc0c1aabb71b28
 
 build:
   noarch: python
@@ -18,8 +18,8 @@ requirements:
   host:
     - python >=3.8
     - pip
-    - setuptools >=42
-    - setuptools-scm >=3.4
+    - hatchling >=1.8.0
+    - hatch-vcs
     - toml
   run:
     - python >=3.8
@@ -27,14 +27,8 @@ requirements:
     - boost-histogram
 
 test:
-  requires:
-    - pytest
-  source_files:
-    - tests
   imports:
     - dask_histogram
-  commands:
-    - pytest
 
 about:
   home: https://dask-histogram.readthedocs.io/
