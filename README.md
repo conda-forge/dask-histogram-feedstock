@@ -1,11 +1,11 @@
-About dask-histogram
-====================
+About dask-histogram-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-histogram-feedstock/blob/main/LICENSE.txt)
 
 Home: https://dask-histogram.readthedocs.io/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-histogram-feedstock/blob/main/LICENSE.txt)
 
 Summary: Scale up histogramming with Dask.
 
@@ -152,4 +152,5 @@ Feedstock Maintainers
 =====================
 
 * [@douglasdavis](https://github.com/douglasdavis/)
+* [@lgray](https://github.com/lgray/)
 
