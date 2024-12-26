@@ -11,22 +11,24 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - hatchling >=1.8.0
     - hatch-vcs
     - toml
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - dask
     - boost-histogram
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - dask_histogram
 
