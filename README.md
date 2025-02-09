@@ -156,6 +156,3 @@ Feedstock Maintainers
 * [@lgray](https://github.com/lgray/)
 * [@martindurant](https://github.com/martindurant/)
 
-
-<!-- dummy commit to enable rerendering -->
-
