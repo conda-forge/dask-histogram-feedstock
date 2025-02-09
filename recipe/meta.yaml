@@ -24,6 +24,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - dask
+    - dask-awkward >=2025
     - boost-histogram
 
 test:
