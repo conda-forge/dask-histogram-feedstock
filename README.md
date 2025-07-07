@@ -16,7 +16,6 @@ Documentation: https://dask-histogram.readthedocs.io/
 Dask histogram extends the boost-histogram library to provide
 compatibility with Dask collections.
 
-
 Current build status
 ====================
 
