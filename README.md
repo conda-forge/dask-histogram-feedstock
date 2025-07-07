@@ -150,6 +150,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@conda-forge/scikit-hep](https://github.com/orgs/conda-forge/teams/scikit-hep/)
 * [@douglasdavis](https://github.com/douglasdavis/)
 * [@jpivarski](https://github.com/jpivarski/)
 * [@lgray](https://github.com/lgray/)
