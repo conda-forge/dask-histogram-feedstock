@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: dask-histogram
-  version: 2025.2.0
+  version: "2026.2.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/dask_histogram/dask_histogram-${{ version }}.tar.gz
-  sha256: ad59f787add2e280ccff409f36b8495d0a782689e6c9797b1d19fd95e3fde067
+  sha256: 76ea6ab994feaeaf13e2966be32f3cc493aa9d8e69f6fe14b6063c145bd3a58e
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
